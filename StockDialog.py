@@ -9,6 +9,7 @@ import csv
 import time
 import threading as th
 
+
 class testTradeHistoryData():
     def __init__(self, code,  startDate, endDate):
         self.startDate = startDate
